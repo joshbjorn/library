@@ -1,0 +1,164 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  .container{
+    width: 80%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #addbook{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    background-color: #efefef;
+  }
+
+  th {
+    text-align: left;
+    padding: 25px 75px 25px 20px;
+    
+  }
+
+  .table-data {
+    padding: 25px 75px 25px 20px;
+  }
+
+  th, td {
+    border: 1px solid white; 
+  }
+
+
+  .table-delete, .table-read{
+    text-align: center;
+  }
+
+  .bookbutton {
+    width: 10em;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #9dcbec;
+    margin-bottom: 5px;
+  }
+
+  .bookbutton:hover {
+    background-color: lightblue; 
+  }
+
+  .readbutton, .deletebutton, .notreadbutton{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+  }
+  .readbutton {
+    background-color: rgb(78, 192, 63);
+  }
+
+  .readbutton:hover {
+    background-color: rgb(89, 218, 72);
+  }
+
+  .notreadbutton{
+    background-color: darkgray;
+  }
+
+  .notreadbutton:hover{
+    background-color: rgb(185, 185, 185);
+  }
+
+  .deletebutton {
+    background-color: #ff6f6f;
+  }
+
+  .deletebutton:hover{
+    background-color: #ff4949;
+  }
+
+  .libraryform{
+    background-color: #efefef; 
+    border-radius: 30px; 
+    position: fixed; 
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    top: 50%; 
+    left: 50%; 
+    margin-top:-250px; 
+    margin-left: -250px;
+    }
+
+  .pagemask{
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    }
+
+  .formheader{
+    text-align: left;
+    border-bottom: 1px #ffffff solid;
+  }
+
+  .formheader h2{
+    margin-left: 5%;
+  }
+
+  .formtitle, .formauthor, .formgenre, .formread {
+    margin-top: 5%;
+    overflow: hidden;
+  }
+
+  .libraryform label{
+    margin-left: 5%;
+    float: left;
+    font-size: 1.3em;
+  }
+
+  .textbox{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+    margin-right: 5%;
+  }
+
+  .formread div {
+    overflow: hidden;
+    text-align: left;
+  }
+
+  .readyes, .readno{
+    margin-top: 2.5%;
+  }
+
+  .readradio label {
+    width: 7.5%;
+  }
+
+  .submit, .closebutton {
+    width: 10em;
+    height: 3.5em;
+    border-radius: 5px;
+  }
+
+  .formsubmit {
+    margin-top: 5%;
+  }
+
+
+
+
+  
